@@ -1,0 +1,127 @@
+{% extends "portfolio/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+
+<style>
+  div.para {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    }
+  div.body {
+    width: 400px;
+    margin: auto;
+    text-align: left;
+    }
+</style>
+
+<br>
+
+
+<div align="center"><h1>Survey Meter Calibrations</h1></div>
+<br>
+<div class="para"><p>Experienced, fast, competitively priced calibration service minimizes downtime and keeps survey meter accurate.</p></div>
+<br>
+
+
+<div class="row">
+<div class="col-2">
+</div>
+
+<div class="col-4">
+
+  <div><h1 align="center">Key Benefits</h1></div>
+
+  <div class="body">
+  <ul>
+  <li>​Sources traceable to NIST standards.  Instruments calibrated at two points on each scale.</li>
+  <li>​All meter tagged with calibration sticker indicating serial number, date calibrated, next due date, and check source reading (if available).  Certificate of calibration furnished for each instrument.</li>
+  <li>​​Reminders for re-calibration are emailed 2-3 weeks in advance.</li> <br>
+  </ul>
+  </div>
+  </div>
+
+
+<div class="col-1">
+</div>
+
+<div class="col-4">
+  <div class="container" align="center">
+    <br>
+    <img src="{% static 'portfolio/dose.png' %}" class="img-fluid mb-2" width="50%">
+    </div>
+
+</div>
+<div class="col-1">
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-6">
+
+  <div class="container" align="right">
+    <img src="{% static 'portfolio/ludlum.png' %}" class="img-fluid mb-2">
+    </div>
+    </div>
+
+    <div class="col-1">
+    </div>
+
+<div class="col-5">
+
+
+  <div class="container" align="left">
+    <table class="table table-striped" style="width:300px;">
+      <thead>
+        <tr class="table-primary">
+          <th style="text-align:left;">Meter Type</th>
+          <th style="text-align:left;">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-light">
+          <td style="text-align:left;">1-4 Ranges</td>
+          <td style="text-align:left;">$60.00</td>
+        </tr>
+        <tr class="table-secondary">
+          <td style="text-align:left;">5 Ranges</td>
+          <td style="text-align:left;">$65.00</td>
+        </tr>
+        <tr class="table-light">
+          <td style="text-align:left;">Ion Chamber</td>
+          <td style="text-align:left;">$145.00</td>
+        </tr>
+        <tr class="table-secondary">
+          <td style="text-align:left;">Digital Meter (1 Probe)</td>
+          <td style="text-align:left;">$65.00</td>
+        </tr>
+        <tr class="table-light">
+          <td style="text-align:left;">Additional Probes</td>
+          <td style="text-align:left;">$15 Ea.</td>
+        </tr>
+        <tr class="table-secondary">
+          <td style="text-align:left;">0-200mR Dosimeter</td>
+          <td style="text-align:left;">$35.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  </div>
+
+
+<br>
+
+
+
+
+
+
+
+
+
+{% endblock %}

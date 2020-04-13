@@ -1,0 +1,151 @@
+{% extends "portfolio/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<br>
+
+<div align="center"><h1>Radiation Leak Test Service</h1></div>
+
+<br>
+
+<style>
+div.body {
+    width: 600px;
+    margin: auto;
+}
+div.benefits {
+  width: 800px;
+  margin: auto;
+}
+div.minor {
+  width: 500px;
+  margin: auto;
+}
+</style>
+
+<div align="center" class="body">Radiation Safety Officers can be
+  confident about the integrity of sealed sources and the accuracy and completeness
+  of their documentation by using Microtec Services Leak Test Service.</div>
+
+<br>
+<br>
+
+<div align="left" class="benefits"><ul>
+  <li>The model LTK-1-2 Leak Test Service Kit meets NRC and Agreement States
+    leak testing requirements for all radioactive sealed and plated sources.</li>
+  <br>
+  <li>Fast, accurate reports produced using automated computer analysis
+    with multi-channel pulse height analyzers for gamma counting, gas-flow
+    proportional and liquid scintillation for alpha and beta counting.​</li>
+  <br>
+  <li>RSO's are automatically notified one month before next leak tests are due.
+    Replacement kits can be mailed with leak test certificates.</li>
+  <br>
+</ul></div>
+
+
+
+<style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 540px;
+      height: 405px;
+  }
+  </style>
+
+
+<div class="row">
+  <div class="col-1">
+</div>
+<div class="col-6">
+<h3 align="center">Gamma & Liquid Scintillation Counting</h3>
+<div id="demo" class="carousel slide" data-ride="carousel" align="center">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'portfolio/ltk.png' %}" width="540px" height="405px">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'portfolio/ltk2.jpg' %}" width="540px" height="405px">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'portfolio/ltk3.jpg' %}" width="540px" height="405px">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+
+<br>
+<div class="col-5">
+<div align="center"><h3>Pricing​ for Leak Test Services</h3></div>
+
+<br>
+
+<div class="container" align="center">
+  <table class="table table-striped" style="width:300px;">
+    <thead>
+      <tr class="table-primary">
+        <th style="text-align:left;">Quanity</th>
+        <th style="text-align:left;">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-light">
+        <td style="text-align:left;">1 Kit</td>
+        <td style="text-align:left;">$28.00</td>
+      </tr>
+      <tr class="table-secondary">
+        <td style="text-align:left;">2-9 Kits</td>
+        <td style="text-align:left;">$23.00</td>
+      </tr>
+      <tr class="table-light">
+        <td style="text-align:left;">10-25 Kits</td>
+        <td style="text-align:left;">$20.00</td>
+      </tr>
+      <tr class="table-secondary">
+        <td style="text-align:left;">26+ Kits</td>
+        <td style="text-align:left;">$ Quote</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+
+<br>
+<br>
+
+
+<div align="center" width="50px"><h4>Quanity discounts available. Please call for details.</h4></div>
+
+<div align="center" class="minor" width="50px"><p>The above prices are based on the number of kits sent in for analysis at one time.  Other venders kits are welcome for analysis.  Call for quotes.
+Terms are net 30 days.  All past due accounts will bear interest at the rate of 1.5% per month.  Prices subject to change.</p></div>
+<br>
+<div align="left" width="50px"><h3>Other Analysis Services</h3></div>
+<div align="left" width="50px"><h4>Emergency Analysis</h4></div>
+<div align="left" width="50px"><p>For emergency situations (e.g., damaged gauges or sources, sources fished from a well, etc.)  Leak tests can be sent by overnight express, analyzed immediately and results faxed to your office.</p></div>
+<div align="left" width="50px"><h4>Environmental Samples</h4></div>
+<div align="left" width="50px"><p>NORM samples, soil and water samples, etc. can be analyzed via high resolution gamma spectroscopy analysis or liquid scintillation (LSC) analysis.  Prices quoted on request.</p></div>
+
+
+
+
+{% endblock %}
