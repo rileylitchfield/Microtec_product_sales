@@ -1,0 +1,98 @@
+{% extends "microtec/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+
+<style>
+  .secondary {
+    margin: auto;
+    width: 600px;
+  }
+  .btn {
+    margin: 5px;
+  }
+
+</style>
+
+<br>
+
+<div align="center">
+<h1>Serving the Petroleum Wireline, Industrial NDT,
+Petrochemical, and Nuclear Medicine Industries</h1>
+</div>
+<br>
+
+<div align="center" class="secondary">
+<h4>Microtec Services, Inc. offers accurate radiation contamination leak testing
+  services, survey meter calibrations, instrument repairs, and sales of new & used radiation detection equipment.</h4>
+</div>
+
+
+
+<div class="row">
+<div class="col" align="center">
+
+<a class="btn btn-primary" href="{% static "microtec/newcustomer.pdf" %}" role="button" target="_blank"><i class="fas fa-align-justify"></i> New Customer Form</a>
+<br>
+
+<a class="btn btn-primary" href="{% static "microtec/return.pdf" %}" role="button" target="_blank"><i class="fas fa-align-justify"></i> Instrument Return Form</a>
+
+
+<hr>
+
+
+
+<div class="row" align="right">
+<div class="col-4">
+
+  <h4><i class="fas fa-address-card"></i> <u>Contact Information</u></h4>
+<b>
+  Microtec Services, Inc.<br>
+  110 Charles Street<br>
+  Pasadena, TX 77506<br>
+  <br>
+  </b>
+  <p><i class="fas fa-envelope"></i><b> Email:</b> <a href="mailto:qstokley@sbcglobal.net">qstokley@sbcglobal.net</a></p>
+  <p><i class="fas fa-phone"></i><b> Telephone:</b> <a href="tel:713-475-2274">713-475-2274</a><br>
+  </p>
+
+
+    <div align="right">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{% static 'microtec/ludlum.png' %}" height="200px" width="auto" alt="Los Angeles">
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'microtec/fluke.png' %}" height="200px" width="auto" alt="Chicago">
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'microtec/nd.png' %}" height="200px" width="auto" alt="New York">
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'microtec/177.png' %}" height="200px" width="auto" alt="New York">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+
+      </div>
+    </div>
+
+</div>
+
+
+<br>
+
+
+<div class="col-8" align="left">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.27236971174!2d-95.21614868455406!3d29.711868641160706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640a2c7a5fee089%3A0xf09fe0cdd606839!2sMicrotec%20Services%2C%20Inc.!5e0!3m2!1sen!2sus!4v1585961198810!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+</div>
+
+{% endblock %}
